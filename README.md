@@ -6,7 +6,7 @@ Designed as a clean, single-user starter kit for rapid web application developme
 
 ---
 
-## ⚡ Tech Stack Overview
+## Tech Stack Overview
 
 * **Backend**: Laravel 13 (PHP 8.5)
 * **Frontend**: React 19 + Inertia.js v3 (Server-Driven SPA)
@@ -18,7 +18,7 @@ Designed as a clean, single-user starter kit for rapid web application developme
 
 ---
 
-## ✨ Features Included
+## Features Included
 
 ### 1. Complete Authentication & Security
 * **Email & Password**: Registration, Login, Email Verification, Password Resets.
@@ -102,7 +102,7 @@ Run `migrate:fresh --seed` to automatically prepare the database and seed a read
 php artisan migrate:fresh --seed
 ```
 
-🔑 **Default Seeded Credentials**:
+ **Default Seeded Credentials**:
 * **Email**: `test@example.com`
 * **Password**: `password`
 
@@ -122,7 +122,7 @@ Visit `http://localhost:8000/dashboard` in your browser!
 
 ---
 
-## 💻 CLI Reference & Useful Commands
+## CLI Reference & Useful Commands
 
 | Command | Action |
 |---|---|
@@ -135,7 +135,7 @@ Visit `http://localhost:8000/dashboard` in your browser!
 
 ---
 
-## 📂 Project Structure & Architecture
+## Project Structure & Architecture
 
 ```text
 ├── app/
