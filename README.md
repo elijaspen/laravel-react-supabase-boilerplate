@@ -1,4 +1,4 @@
-# 🚀 Laravel 13 + React 19 + Supabase Starter Kit
+# Laravel 13 + React 19 + Supabase Starter Kit
 
 A modern, full-stack **Laravel 13** and **React 19** boilerplate powered by **Supabase**, **Inertia.js v3**, **Laravel Fortify**, **Tailwind CSS v4**, **TypeScript**, **Laravel Wayfinder**, **Shadcn UI**, and **Pest v4**.
 
@@ -21,23 +21,23 @@ Designed as a clean, production-ready starter kit for rapid web application deve
 
 ## Features Included
 
-### 🔐 1. Complete Authentication & Security
+### 1. Complete Authentication & Security
 * **Email & Password**: Registration, Login, Email Verification, Password Resets.
 * **Passkeys (WebAuthn)**: Biometric passwordless login (FaceID / TouchID / Security Keys).
 * **Two-Factor Authentication (2FA)**: TOTP QR code setup with recovery codes.
 * **Password Confirmation**: Built-in modal triggers for sensitive actions.
 
-### ⚡ 2. Supabase Integration
+### 2. Supabase Integration
 * **Managed Cloud Database**: Native Laravel PDO connection to Supabase Postgres pooler.
 * **Supabase JS Client SDK**: Clean singleton instance exported from `resources/js/lib/supabase.ts`.
 * **React Supabase Hooks**: `useSupabase()` hook for 1-line access to Supabase Storage file uploads and Realtime channel subscriptions.
 
-### 🎨 3. UI Design System & Components
+### 3. UI Design System & Components
 * **Shadcn UI Primitives**: 28+ pre-installed components in `resources/js/components/ui/` (`Button`, `Dialog`, `Table`, `Textarea`, `DropdownMenu`, `Sheet`, `Select`, `Card`, `Badge`, `Avatar`, `Input`, `Checkbox`, `Tooltip`, `Sonner`, `Skeleton`, etc.).
 * **Appearance / Dark Mode**: Smooth Dark, Light, and System theme switching with persistent preferences (`useAppearance`).
 * **Toast Notification System**: Automatic Sonner toast popups for backend flash messages (`with('success', 'Saved!')`).
 
-### 🛠️ 4. Developer Experience (DX) Boosters
+### 4. Developer Experience (DX) Boosters
 * **Wayfinder Typed Routes**: Call controllers directly in TypeScript without hardcoded URLs:
   ```tsx
   import { dashboard } from '@/routes';
@@ -52,7 +52,7 @@ Designed as a clean, production-ready starter kit for rapid web application deve
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### 1. Prerequisites
 * **PHP**: 8.3 or higher (PHP 8.5 recommended)
@@ -187,7 +187,7 @@ Visit `http://localhost:8000/dashboard` in your browser!
 
 ---
 
-## 💡 How to Clone for a New Project
+## How to Clone for a New Project
 
 When starting a brand-new application in the future:
 
@@ -210,6 +210,6 @@ php artisan migrate:fresh --seed
 
 ---
 
-## 🛡️ License
+## License
 
 This starter template is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
